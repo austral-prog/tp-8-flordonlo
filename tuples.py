@@ -10,7 +10,7 @@ def convert_coordinate(coordinate):
 
 
 def create_record(azara_record, rui_record):
-     tesoro, coordenada= azara_record
+    tesoro, coordenada= azara_record
     ubicación, coordena_da, cuadrante= rui_record
     if convert_coordinate(coordenada) == rui_record[1]:
         return azara_record + rui_record
